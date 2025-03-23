@@ -11,7 +11,8 @@
     {"id": "9", "command": "git branch", "info": "Visar/skapar grenar"},
     {"id": "10", "command": "git checkout", "info": "Byter till annan gren eller commit"},
     {"id": "11", "command": "git merge", "info": "Slår ihop en gren med aktuell gren"},
-    {"id": "12", "command": "git log", "info": "Visar commit-historik"}
+    {"id": "12", "command": "git log", "info": "Visar commit-historik"},
+    {"id": "13", "command": "git diff", "info": "Visar skillnader mellan filer/commits"}
 
 
 
