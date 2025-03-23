@@ -22,16 +22,8 @@
     {"id":"20","gitCommand":"git stash apply","info":"Applicera senaste stash utan att ta bort den. Används när du vill återställa ändringar men behålla stashen för att kunna använda den senare."},
     {"id":"21","gitCommand":"git rm <file>","info":"Ta bort fil från repot och stagea borttagningen. Används när du vill ta bort filer från både lokalt och indexet."},
     {"id":"22","gitCommand":"git tag <tagname>","info":"Skapa en tagg för att markera en specifik commit. Används när du vill markera en viktig version av projektet (t.ex. en release)."},
-    {"id":"23","gitCommand":"git cherry-pick <commit>","info":"Applicera specifik commit till aktuell branch. Används när du vill ta en specifik commit från en annan branch och tillämpa den på den aktuella."}
-
-
-
-
-
-
-
-
-
+    {"id":"23","gitCommand":"git cherry-pick <commit>","info":"Applicera specifik commit till aktuell branch. Används när du vill ta en specifik commit från en annan branch och tillämpa den på den aktuella."},
+    {"id":"24","gitCommand":"git rebase <branch>","info":"Flyttar commits så att de appliceras ovanpå den senaste committen i en annan branch. Används för att uppdatera din branch med ändringar från en annan branch utan att skapa en merge commit, vilket håller historiken ren och linjär."}
 
 
 
