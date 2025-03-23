@@ -39,7 +39,8 @@
     {"id":"36", "gitCommand":"git clean -f", "info":"Ta bort oversionerade filer (force)"},
     {"id":"37", "gitCommand":"git mv <oldfile> <new_file>", "info":"Byt namn eller flytta en fil och stage ändringen"},
     {"id":"38", "gitCommand":"git submodule add <rep_url> <path>", "info":"Lägg till ett submodule-repo i projektet"},
-    {"id":"39", "gitCommand":"git submodule update --init", "info":"Initiera och uppdatera submodule till rätt version"}
+    {"id":"39", "gitCommand":"git submodule update --init", "info":"Initiera och uppdatera submodule till rätt version"},
+    {"id":"40", "gitCommand":"git remote remove <name>", "info":"Ta bort en fjärr-repo-referens"}
 
 
 
