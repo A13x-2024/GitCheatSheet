@@ -31,7 +31,21 @@
 
 
 
-
+    {"id":"31", "gitCommand":"git bisect start", "info":"Starta binary search för att hitta buggy"},
+    {"id":"32", "gitCommand":"git bisect bad", "info":"Markera nuvarande commit som 'bad'"},
+    {"id":"33", "gitCommand":"git bisect good <commit>", "info":"Markera en känd fungerande commit som 'good'"},
+    {"id":"34", "gitCommand":"git shortlog", "info":"Visa sammanfattad logg grupperad per författare"},
+    {"id":"35", "gitCommand":"git reflog", "info":"Visa historik över HEAD-rörelser (t.ex. resets, checkouts)"},
+    {"id":"36", "gitCommand":"git clean -f", "info":"Ta bort oversionerade filer (force)"},
+    {"id":"37", "gitCommand":"git mv <oldfile> <new_file>", "info":"Byt namn eller flytta en fil och stage ändringen"},
+    {"id":"38", "gitCommand":"git submodule add <rep_url> <path>", "info":"Lägg till ett submodule-repo i projektet"},
+    {"id":"39", "gitCommand":"git submodule update --init", "info":"Initiera och uppdatera submodule till rätt version"},
+    {"id":"40", "gitCommand":"git remote remove <name>", "info":"Ta bort en fjärr-repo-referens"},
+    {"id":"41", "gitCommand":"git commit --amend", "info":"Ändra senaste commit (meddelande eller innehåll)"},
+    {"id":"42", "gitCommand":"git push --set-upstream origin branch", "info":"Länka lokal branch till fjärr och pusha den"},
+    {"id":"43", "gitCommand":"git fetch --prune", "info":"Ta bort lokala referenser till borttagna fjärrbrancher"},
+    {"id":"44", "gitCommand":"git push --force", "info":"Tvinga push och skriv över fjärrbranch"},
+    {"id":"45", "gitCommand":"git diff --staged", "info":"Visa skillnader mellan staged ändringar och senaste commit"}
 
 
 
