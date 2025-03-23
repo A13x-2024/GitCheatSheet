@@ -1,6 +1,8 @@
 {
 "gitCommands": [
-	{"id": "1", "command": "git init ", "info": "Initierar ett nytt Git-repo i mappen"}
+	{"id": "1", "command": "git init", "info": "Initierar ett nytt Git-repo i mappen"},
+    {"id": "2", "command": "git clone (url)", "info": "Klonar ett repo från en URL"}
+
 
 
 
