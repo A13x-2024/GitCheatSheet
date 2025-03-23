@@ -32,7 +32,8 @@
 
 
     {"id":"31", "gitCommand":"git bisect start", "info":"Starta binary search för att hitta buggy"},
-    {"id":"31", "gitCommand":"git bisect bad", "info":"Markera nuvarande commit som 'bad'"}
+    {"id":"32", "gitCommand":"git bisect bad", "info":"Markera nuvarande commit som 'bad'"},
+    {"id":"33", "gitCommand":"git bisect good <commit>", "info":"Markera en känd fungerande commit som 'good'"}
 
 
 
