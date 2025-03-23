@@ -24,7 +24,8 @@
     {"id":"22","gitCommand":"git tag <tagname>","info":"Skapa en tagg för att markera en specifik commit. Används när du vill markera en viktig version av projektet (t.ex. en release)."},
     {"id":"23","gitCommand":"git cherry-pick <commit>","info":"Applicera specifik commit till aktuell branch. Används när du vill ta en specifik commit från en annan branch och tillämpa den på den aktuella."},
     {"id":"24","gitCommand":"git rebase <branch>","info":"Flyttar commits så att de appliceras ovanpå den senaste committen i en annan branch. Används för att uppdatera din branch med ändringar från en annan branch utan att skapa en merge commit, vilket håller historiken ren och linjär."},
-    {"id":"25","gitCommand":"git config --global user.name","info":"Ställ in globalt användarnamn för Git. Används för att ange ditt namn för att identifiera dina commits."}
+    {"id":"25","gitCommand":"git config --global user.name","info":"Ställ in globalt användarnamn för Git. Används för att ange ditt namn för att identifiera dina commits."},
+    {"id":"26","gitCommand":"git log --oneline","info":"Visa logg med en rad per commit. Används för att få en snabb översikt över commits i en branch."}
 
 
 
