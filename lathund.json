@@ -41,7 +41,8 @@
     {"id":"38", "gitCommand":"git submodule add <rep_url> <path>", "info":"Lägg till ett submodule-repo i projektet"},
     {"id":"39", "gitCommand":"git submodule update --init", "info":"Initiera och uppdatera submodule till rätt version"},
     {"id":"40", "gitCommand":"git remote remove <name>", "info":"Ta bort en fjärr-repo-referens"},
-    {"id":"41", "gitCommand":"git commit --amend", "info":"Ändra senaste commit (meddelande eller innehåll)"}
+    {"id":"41", "gitCommand":"git commit --amend", "info":"Ändra senaste commit (meddelande eller innehåll)"},
+    {"id":"42", "gitCommand":"git push --set-upstream origin branch", "info":"Länka lokal branch till fjärr och pusha den"}
 
 
 
