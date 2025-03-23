@@ -27,7 +27,8 @@
     {"id":"25","gitCommand":"git config --global user.name","info":"Ställ in globalt användarnamn för Git. Används för att ange ditt namn för att identifiera dina commits."},
     {"id":"26","gitCommand":"git log --oneline","info":"Visa logg med en rad per commit. Används för att få en snabb översikt över commits i en branch."},
     {"id":"27","gitCommand":"git blame <file>","info":"Visa vem som ändrade varje rad i en fil och när. Används för att få reda på historiken för ändringar i en specifik fil."},
-    {"id":"28","gitCommand":"git show <commit>","info":"Visa detaljer om en commit. Används när du vill granska en specifik commit mer noggrant."}
+    {"id":"28","gitCommand":"git show <commit>","info":"Visa detaljer om en commit. Används när du vill granska en specifik commit mer noggrant."},
+    {"id":"29","gitCommand":"git config --global user.email","info":"Ställ in global e-postadress för Git. Används för att ange din e-postadress för att identifiera dina commits."}
 
 
 
