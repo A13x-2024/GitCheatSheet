@@ -31,7 +31,7 @@
 
 
 
-
+    {"id":"31", "gitCommand":"git bisect start", "info":"Starta binary search för att hitta buggy"}
 
 
 
