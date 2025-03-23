@@ -15,8 +15,8 @@
 
 
 
-    {"id":"16", "gitCommand":"git stash", "info":"Spara tillfälliga ändringar för att återställa ren arbetskatalog. Används när du behöver tillfälligt spara arbete innan du byter branch eller gör andra ändringar."}       
-
+    {"id":"16", "gitCommand":"git stash", "info":"Spara tillfälliga ändringar för att återställa ren arbetskatalog. Används när du behöver tillfälligt spara arbete innan du byter branch eller gör andra ändringar."},      
+    {"id":"17","gitCommand":"git stash pop","info":"Återställ senaste stash och ta bort den från listan. Används för att återställa tidigare tillfälligt sparade ändringar."}
 
 
 
