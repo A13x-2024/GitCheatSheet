@@ -5,7 +5,8 @@
     {"id": "3", "command": "git status", "info": "Visar aktuellt status på ändringar"},
     {"id": "4", "command": "git add", "info": "Lägger till filer till staging"},
     {"id": "5", "command": "git commit -m''", "info": "Sparar ändringar med ett meddelande"},
-    {"id": "6", "command": "git push", "info": "Skickar lokala commits till fjärrrepo"}
+    {"id": "6", "command": "git push", "info": "Skickar lokala commits till fjärrrepo"},
+    {"id": "7", "command": "git pull", "info": "Hämtar och slår ihop ändringar från fjärrrepo"}
 
 
 
