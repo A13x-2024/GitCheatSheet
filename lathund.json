@@ -42,7 +42,8 @@
     {"id":"39", "gitCommand":"git submodule update --init", "info":"Initiera och uppdatera submodule till rätt version"},
     {"id":"40", "gitCommand":"git remote remove <name>", "info":"Ta bort en fjärr-repo-referens"},
     {"id":"41", "gitCommand":"git commit --amend", "info":"Ändra senaste commit (meddelande eller innehåll)"},
-    {"id":"42", "gitCommand":"git push --set-upstream origin branch", "info":"Länka lokal branch till fjärr och pusha den"}
+    {"id":"42", "gitCommand":"git push --set-upstream origin branch", "info":"Länka lokal branch till fjärr och pusha den"},
+    {"id":"43", "gitCommand":"git fetch --prune", "info":"Ta bort lokala referenser till borttagna fjärrbrancher"}
 
 
 
