@@ -38,7 +38,8 @@
     {"id":"35", "gitCommand":"git reflog", "info":"Visa historik över HEAD-rörelser (t.ex. resets, checkouts)"},
     {"id":"36", "gitCommand":"git clean -f", "info":"Ta bort oversionerade filer (force)"},
     {"id":"37", "gitCommand":"git mv <oldfile> <new_file>", "info":"Byt namn eller flytta en fil och stage ändringen"},
-    {"id":"38", "gitCommand":"git submodule add <rep_url> <path>", "info":"Lägg till ett submodule-repo i projektet"}
+    {"id":"38", "gitCommand":"git submodule add <rep_url> <path>", "info":"Lägg till ett submodule-repo i projektet"},
+    {"id":"39", "gitCommand":"git submodule update --init", "info":"Initiera och uppdatera submodule till rätt version"}
 
 
 
