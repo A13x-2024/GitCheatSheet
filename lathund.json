@@ -8,7 +8,8 @@
     {"id": "6", "command": "git push", "info": "Skickar lokala commits till fjärrrepo"},
     {"id": "7", "command": "git pull", "info": "Hämtar och slår ihop ändringar från fjärrrepo"},
     {"id": "8", "command": "git fetch", "info": "Hämtar ändringar utan att slå ihop demo"},
-    {"id": "9", "command": "git branch", "info": "Visar/skapar grenar"}
+    {"id": "9", "command": "git branch", "info": "Visar/skapar grenar"},
+    {"id": "10", "command": "git checkout", "info": "Byter till annan gren eller commit"}
 
 
 
