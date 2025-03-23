@@ -44,7 +44,8 @@
     {"id":"41", "gitCommand":"git commit --amend", "info":"Ändra senaste commit (meddelande eller innehåll)"},
     {"id":"42", "gitCommand":"git push --set-upstream origin branch", "info":"Länka lokal branch till fjärr och pusha den"},
     {"id":"43", "gitCommand":"git fetch --prune", "info":"Ta bort lokala referenser till borttagna fjärrbrancher"},
-    {"id":"43", "gitCommand":"git push --force", "info":"Tvinga push och skriv över fjärrbranch"}
+    {"id":"44", "gitCommand":"git push --force", "info":"Tvinga push och skriv över fjärrbranch"},
+    {"id":"45", "gitCommand":"git diff --staged", "info":"Visa skillnader mellan staged ändringar och senaste commit"}
 
 
 
