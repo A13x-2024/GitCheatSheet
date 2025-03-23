@@ -3,8 +3,9 @@
 	{"id": "1", "command": "git init", "info": "Initierar ett nytt Git-repo i mappen"},
     {"id": "2", "command": "git clone (url)", "info": "Klonar ett repo från en URL"},
     {"id": "3", "command": "git status", "info": "Visar aktuellt status på ändringar"},
-    {"id": "4", "command": "git add ", "info": "Lägger till filer till staging"},
-    {"id": "5", "command": "git commit -m ''", "info": "Sparar ändringar med ett meddelande"}
+    {"id": "4", "command": "git add", "info": "Lägger till filer till staging"},
+    {"id": "5", "command": "git commit -m''", "info": "Sparar ändringar med ett meddelande"},
+    {"id": "6", "command": "git push", "info": "Skickar lokala commits till fjärrrepo"}
 
 
 
