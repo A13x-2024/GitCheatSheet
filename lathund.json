@@ -14,7 +14,7 @@
     {"id": "12", "command": "git log", "info": "Visar commit-historik"},
     {"id": "13", "command": "git diff", "info": "Visar skillnader mellan filer/commits"},
     {"id": "14", "command": "git reset [file]", "info": "Avstagear fil från staging"},
-    {"id": "15", "command": "git revert [commit]", "info": "Ångrar commit genom att skapa en ny"}
+    {"id": "15", "command": "git revert [commit]", "info": "Ångrar commit genom att skapa en ny"},
 
 
 
