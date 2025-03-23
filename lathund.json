@@ -19,7 +19,8 @@
     {"id":"17","gitCommand":"git stash pop","info":"Återställ senaste stash och ta bort den från listan. Används för att återställa tidigare tillfälligt sparade ändringar."},
     {"id":"18","gitCommand":"git remote -v","info":"Visa remote repon och deras URL:er. Används för att kontrollera vilka remote repon som är kopplade till ditt lokala repo."},
     {"id":"19","gitCommand":"git reset <file>","info":"Avstagear en specifik fil från staging. Används när du vill ta bort en fil från staging utan att förlora ändringarna."},
-    {"id":"20","gitCommand":"git stash apply","info":"Applicera senaste stash utan att ta bort den. Används när du vill återställa ändringar men behålla stashen för att kunna använda den senare."}
+    {"id":"20","gitCommand":"git stash apply","info":"Applicera senaste stash utan att ta bort den. Används när du vill återställa ändringar men behålla stashen för att kunna använda den senare."},
+    {"id":"21","gitCommand":"git rm <file>","info":"Ta bort fil från repot och stagea borttagningen. Används när du vill ta bort filer från både lokalt och indexet."}
 
 
 
