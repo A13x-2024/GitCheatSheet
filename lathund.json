@@ -1,122 +1,50 @@
 {
-"gitCommands": [
-	{"id": "1", "command": "git init", "info": "Initierar ett nytt Git-repo i mappen"},
-    {"id": "2", "command": "git clone (url)", "info": "Klonar ett repo från en URL"},
-    {"id": "3", "command": "git status", "info": "Visar aktuellt status på ändringar"},
-    {"id": "4", "command": "git add", "info": "Lägger till filer till staging"},
-    {"id": "5", "command": "git commit -m''", "info": "Sparar ändringar med ett meddelande"},
-    {"id": "6", "command": "git push", "info": "Skickar lokala commits till fjärrrepo"},
-    {"id": "7", "command": "git pull", "info": "Hämtar och slår ihop ändringar från fjärrrepo"},
-    {"id": "8", "command": "git fetch", "info": "Hämtar ändringar utan att slå ihop demo"},
-    {"id": "9", "command": "git branch", "info": "Visar/skapar grenar"},
-    {"id": "10", "command": "git checkout", "info": "Byter till annan gren eller commit"},
-    {"id": "11", "command": "git merge", "info": "Slår ihop en gren med aktuell gren"},
-    {"id": "12", "command": "git log", "info": "Visar commit-historik"},
-    {"id": "13", "command": "git diff", "info": "Visar skillnader mellan filer/commits"},
-    {"id": "14", "command": "git reset [file]", "info": "Avstagear fil från staging"},
-    {"id": "15", "command": "git revert [commit]", "info": "Ångrar commit genom att skapa en ny"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {"id":"16", "gitCommand":"git stash", "info":"Spara tillfälliga ändringar för att återställa ren arbetskatalog. Används när du behöver tillfälligt spara arbete innan du byter branch eller gör andra ändringar."},      
-    {"id":"17","gitCommand":"git stash pop","info":"Återställ senaste stash och ta bort den från listan. Används för att återställa tidigare tillfälligt sparade ändringar."},
-    {"id":"18","gitCommand":"git remote -v","info":"Visa remote repon och deras URL:er. Används för att kontrollera vilka remote repon som är kopplade till ditt lokala repo."},
-    {"id":"19","gitCommand":"git reset <file>","info":"Avstagear en specifik fil från staging. Används när du vill ta bort en fil från staging utan att förlora ändringarna."},
-    {"id":"20","gitCommand":"git stash apply","info":"Applicera senaste stash utan att ta bort den. Används när du vill återställa ändringar men behålla stashen för att kunna använda den senare."},
-    {"id":"21","gitCommand":"git rm <file>","info":"Ta bort fil från repot och stagea borttagningen. Används när du vill ta bort filer från både lokalt och indexet."},
-    {"id":"22","gitCommand":"git tag <tagname>","info":"Skapa en tagg för att markera en specifik commit. Används när du vill markera en viktig version av projektet (t.ex. en release)."},
-    {"id":"23","gitCommand":"git cherry-pick <commit>","info":"Applicera specifik commit till aktuell branch. Används när du vill ta en specifik commit från en annan branch och tillämpa den på den aktuella."},
-    {"id":"24","gitCommand":"git rebase <branch>","info":"Flyttar commits så att de appliceras ovanpå den senaste committen i en annan branch. Används för att uppdatera din branch med ändringar från en annan branch utan att skapa en merge commit, vilket håller historiken ren och linjär."},
-    {"id":"25","gitCommand":"git config --global user.name","info":"Ställ in globalt användarnamn för Git. Används för att ange ditt namn för att identifiera dina commits."},
-    {"id":"26","gitCommand":"git log --oneline","info":"Visa logg med en rad per commit. Används för att få en snabb översikt över commits i en branch."},
-    {"id":"27","gitCommand":"git blame <file>","info":"Visa vem som ändrade varje rad i en fil och när. Används för att få reda på historiken för ändringar i en specifik fil."},
-    {"id":"28","gitCommand":"git show <commit>","info":"Visa detaljer om en commit. Används när du vill granska en specifik commit mer noggrant."},
-    {"id":"29","gitCommand":"git config --global user.email","info":"Ställ in global e-postadress för Git. Används för att ange din e-postadress för att identifiera dina commits."},
-    {"id":"30","gitCommand":"git archive --format=zip --output=archive.zip <branch>","info":"Skapa en zip-fil av branchens innehåll. Används för att skapa en zip-fil av hela branchen, bra för att dela eller spara en version av projektet."},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {"id":"31", "gitCommand":"git bisect start", "info":"Starta binary search för att hitta buggy"},
-    {"id":"32", "gitCommand":"git bisect bad", "info":"Markera nuvarande commit som 'bad'"},
-    {"id":"33", "gitCommand":"git bisect good <commit>", "info":"Markera en känd fungerande commit som 'good'"},
-    {"id":"34", "gitCommand":"git shortlog", "info":"Visa sammanfattad logg grupperad per författare"},
-    {"id":"35", "gitCommand":"git reflog", "info":"Visa historik över HEAD-rörelser (t.ex. resets, checkouts)"},
-    {"id":"36", "gitCommand":"git clean -f", "info":"Ta bort oversionerade filer (force)"},
-    {"id":"37", "gitCommand":"git mv <oldfile> <new_file>", "info":"Byt namn eller flytta en fil och stage ändringen"},
-    {"id":"38", "gitCommand":"git submodule add <rep_url> <path>", "info":"Lägg till ett submodule-repo i projektet"},
-    {"id":"39", "gitCommand":"git submodule update --init", "info":"Initiera och uppdatera submodule till rätt version"},
-    {"id":"40", "gitCommand":"git remote remove <name>", "info":"Ta bort en fjärr-repo-referens"},
-    {"id":"41", "gitCommand":"git commit --amend", "info":"Ändra senaste commit (meddelande eller innehåll)"},
-    {"id":"42", "gitCommand":"git push --set-upstream origin branch", "info":"Länka lokal branch till fjärr och pusha den"},
-    {"id":"43", "gitCommand":"git fetch --prune", "info":"Ta bort lokala referenser till borttagna fjärrbrancher"},
-    {"id":"44", "gitCommand":"git push --force", "info":"Tvinga push och skriv över fjärrbranch"},
-    {"id":"45", "gitCommand":"git diff --staged", "info":"Visa skillnader mellan staged ändringar och senaste commit"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-]}
+    "gitCommands": [
+      {"id": "1", "gitCommand": "git init", "info": "Initierar ett nytt Git-repo i mappen"},
+      {"id": "2", "gitCommand": "git clone (url)", "info": "Klonar ett repo från en URL"},
+      {"id": "3", "gitCommand": "git status", "info": "Visar aktuellt status på ändringar"},
+      {"id": "4", "gitCommand": "git add", "info": "Lägger till filer till staging"},
+      {"id": "5", "gitCommand": "git commit -m''", "info": "Sparar ändringar med ett meddelande"},
+      {"id": "6", "gitCommand": "git push", "info": "Skickar lokala commits till fjärrrepo"},
+      {"id": "7", "gitCommand": "git pull", "info": "Hämtar och slår ihop ändringar från fjärrrepo"},
+      {"id": "8", "gitCommand": "git fetch", "info": "Hämtar ändringar utan att slå ihop demo"},
+      {"id": "9", "gitCommand": "git branch", "info": "Visar/skapar grenar"},
+      {"id": "10", "gitCommand": "git checkout", "info": "Byter till annan gren eller commit"},
+      {"id": "11", "gitCommand": "git merge", "info": "Slår ihop en gren med aktuell gren"},
+      {"id": "12", "gitCommand": "git log", "info": "Visar commit-historik"},
+      {"id": "13", "gitCommand": "git diff", "info": "Visar skillnader mellan filer/commits"},
+      {"id": "14", "gitCommand": "git reset [file]", "info": "Avstagear fil från staging"},
+      {"id": "15", "gitCommand": "git revert [commit]", "info": "Ångrar commit genom att skapa en ny"},
+      {"id": "16", "gitCommand": "git stash", "info": "Spara tillfälliga ändringar för att återställa ren arbetskatalog. Används när du behöver tillfälligt spara arbete innan du byter branch eller gör andra ändringar."},
+      {"id": "17", "gitCommand": "git stash pop", "info": "Återställ senaste stash och ta bort den från listan. Används för att återställa tidigare tillfälligt sparade ändringar."},
+      {"id": "18", "gitCommand": "git remote -v", "info": "Visa remote repon och deras URL:er. Används för att kontrollera vilka remote repon som är kopplade till ditt lokala repo."},
+      {"id": "19", "gitCommand": "git reset <file>", "info": "Avstagear en specifik fil från staging. Används när du vill ta bort en fil från staging utan att förlora ändringarna."},
+      {"id": "20", "gitCommand": "git stash apply", "info": "Applicera senaste stash utan att ta bort den. Används när du vill återställa ändringar men behålla stashen för att kunna använda den senare."},
+      {"id": "21", "gitCommand": "git rm <file>", "info": "Ta bort fil från repot och stagea borttagningen. Används när du vill ta bort filer från både lokalt och indexet."},
+      {"id": "22", "gitCommand": "git tag <tagname>", "info": "Skapa en tagg för att markera en specifik commit. Används när du vill markera en viktig version av projektet (t.ex. en release)."},
+      {"id": "23", "gitCommand": "git cherry-pick <commit>", "info": "Applicera specifik commit till aktuell branch. Används när du vill ta en specifik commit från en annan branch och tillämpa den på den aktuella."},
+      {"id": "24", "gitCommand": "git rebase <branch>", "info": "Flyttar commits så att de appliceras ovanpå den senaste committen i en annan branch. Används för att uppdatera din branch med ändringar från en annan branch utan att skapa en merge commit, vilket håller historiken ren och linjär."},
+      {"id": "25", "gitCommand": "git config --global user.name", "info": "Ställ in globalt användarnamn för Git. Används för att ange ditt namn för att identifiera dina commits."},
+      {"id": "26", "gitCommand": "git log --oneline", "info": "Visa logg med en rad per commit. Används för att få en snabb översikt över commits i en branch."},
+      {"id": "27", "gitCommand": "git blame <file>", "info": "Visa vem som ändrade varje rad i en fil och när. Används för att få reda på historiken för ändringar i en specifik fil."},
+      {"id": "28", "gitCommand": "git show <commit>", "info": "Visa detaljer om en commit. Används när du vill granska en specifik commit mer noggrant."},
+      {"id": "29", "gitCommand": "git config --global user.email", "info": "Ställ in global e-postadress för Git. Används för att ange din e-postadress för att identifiera dina commits."},
+      {"id": "30", "gitCommand": "git archive --format=zip --output=archive.zip <branch>", "info": "Skapa en zip-fil av branchens innehåll. Används för att skapa en zip-fil av hela branchen, bra för att dela eller spara en version av projektet."},
+      {"id": "31", "gitCommand": "git bisect start", "info": "Starta binary search för att hitta buggy"},
+      {"id": "32", "gitCommand": "git bisect bad", "info": "Markera nuvarande commit som 'bad'"},
+      {"id": "33", "gitCommand": "git bisect good <commit>", "info": "Markera en känd fungerande commit som 'good'"},
+      {"id": "34", "gitCommand": "git shortlog", "info": "Visa sammanfattad logg grupperad per författare"},
+      {"id": "35", "gitCommand": "git reflog", "info": "Visa historik över HEAD-rörelser (t.ex. resets, checkouts)"},
+      {"id": "36", "gitCommand": "git clean -f", "info": "Ta bort oversionerade filer (force)"},
+      {"id": "37", "gitCommand": "git mv <oldfile> <new_file>", "info": "Byt namn eller flytta en fil och stage ändringen"},
+      {"id": "38", "gitCommand": "git submodule add <rep_url> <path>", "info": "Lägg till ett submodule-repo i projektet"},
+      {"id": "39", "gitCommand": "git submodule update --init", "info": "Initiera och uppdatera submodule till rätt version"},
+      {"id": "40", "gitCommand": "git remote remove <name>", "info": "Ta bort en fjärr-repo-referens"},
+      {"id": "41", "gitCommand": "git commit --amend", "info": "Ändra senaste commit (meddelande eller innehåll)"},
+      {"id": "42", "gitCommand": "git push --set-upstream origin branch", "info": "Länka lokal branch till fjärr och pusha den"},
+      {"id": "43", "gitCommand": "git fetch --prune", "info": "Ta bort lokala referenser till borttagna fjärrbrancher"},
+      {"id": "44", "gitCommand": "git push --force", "info": "Tvinga push och skriv över fjärrbranch"},
+      {"id": "45", "gitCommand": "git diff --staged", "info": "Visa skillnader mellan staged ändringar och senaste commit"}
+    ]
+  }
+  
