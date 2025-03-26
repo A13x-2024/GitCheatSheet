@@ -1,25 +1,13 @@
-Alla:
+Vi började med att sätta upp projektet och skapa en textfil med 60 git commands. 
+Vi följde pdf mallen och valde att använda oss a json för filen vi skulle skriva in commands till. 
 
-Vi började med att sätta upp projektet och skapa en textfil med 60 git commands. Vi följde pdf mallen och valde att använda oss a json för filen
-vi skulle skriva in commands till. Efter det skapade vi en development branch och bjöd in varandra på github till repot så alla kunde clona repot
-till sin egen dator. När vi gjort det skapade alla varsin branch från development genom "git checkout -b ..." och vi delade upp alla kommandon.
+Efter det skapade vi en development branch och bjöd in varandra på github till repot så alla kunde clona repot till sin egen dator. 
+När vi gjort det skapade alla varsin branch från development genom "git checkout -b ..." och vi delade upp alla kommandon.
+
 Vi utgick ifrån att alla i gruppen skulle närvara så vi lämnade 15 commands till Saleban men vi har inte fått tag på honom varav bara 45 commands.
+
 Vi insåg när vi skulle skriva in kommandon att vi inte visste exakta formatet för att skriva in json och googlade oss fram till det.
-Vi bestämde på ett ungefär vilka rader vi jobbade med så det inte blev att man skrev på samma plats och det skulle bli merge konflikt. 
+Vi bestämde på ett ungefär vilka rader vi jobbade med så det inte blev att man skrev på samma plats och det skulle bli merge konflikt.
 När vi sen gjort alla våra commits och merge-ade så blev det lite mellanrum mellan våra rader och vi fixade det i development branchen.
+
 Tillslut mergeade vi till Main och pushade till github.
-
-
-
-Sara:
-
-
-
-Alex:
-Jag använde mig av git add, git commit och git push främst i detta projektet, även git checkout för att byta branch. 
-Jag hade inte jobbat med att dela upp kommandon i en grupp tidigare så det var en ny erfarenhet för mig. 
-Jag tycker att det gick bra och att vi alla i gruppen bidrog till projektet på ett bra sätt.
-Det var nyttigt att få jobba med git på detta sättet och att få en bättre förståelse för hur det fungerar i praktiken med branches och merge.
-
-
-Tobbe:
