@@ -1,5 +1,5 @@
 Vi började med att sätta upp projektet och skapa en textfil med 60 git commands. 
-Vi följde pdf mallen och valde att använda oss a json för filen vi skulle skriva in commands till. 
+Vi följde pdf mallen och valde att använda oss a json för filen vi skulle skriva in commands till. (dock blev det lite fel för det stod lathund i dev o gitCommands i Main)
 
 Efter det skapade vi en development branch och bjöd in varandra på github till repot så alla kunde clona repot till sin egen dator. 
 När vi gjort det skapade alla varsin branch från development genom "git checkout -b ..." och vi delade upp alla kommandon.
